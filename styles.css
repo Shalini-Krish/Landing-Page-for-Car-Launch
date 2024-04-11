@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #E0AA3E;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+main {
+  padding: 20px;
+  color: #fff;
+}
+
+section {
+  margin-bottom: 30px;
+
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #E0AA3E ;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: saddlebrown;
+}
+
+footer {
+  background-color: #E0AA3E;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#register-form, #event-details,#introduction,#features
+{
+  text-align: center;
+   padding: 10px;
+  color: #fff;
+}
